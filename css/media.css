@@ -1,0 +1,17 @@
+/* Размеры сеток bootstrap смотреть на сайте: https://bootstrap-4.ru/docs/5.1/layout/grid/ */
+@media screen and (max-width:992px) {
+  .container {
+    min-width: 100%;
+  }
+  .col-lg-6 {
+    width: calc(50% - var(--gutter));
+  }
+}
+@media screen and (max-width:768px) {
+  .container {
+    min-width: 100%;
+  }
+  .col-md-12 {
+    width: calc(100% - var(--gutter));
+  }
+}
